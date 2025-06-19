@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Nxt-Trendz-Authentication/static/css/main.ee614429.chunk.css",
+    "main.js": "/Nxt-Trendz-Authentication/static/js/main.5cc470f8.chunk.js",
+    "main.js.map": "/Nxt-Trendz-Authentication/static/js/main.5cc470f8.chunk.js.map",
+    "runtime-main.js": "/Nxt-Trendz-Authentication/static/js/runtime-main.18d82c3d.js",
+    "runtime-main.js.map": "/Nxt-Trendz-Authentication/static/js/runtime-main.18d82c3d.js.map",
+    "static/js/2.3d3b54bd.chunk.js": "/Nxt-Trendz-Authentication/static/js/2.3d3b54bd.chunk.js",
+    "static/js/2.3d3b54bd.chunk.js.map": "/Nxt-Trendz-Authentication/static/js/2.3d3b54bd.chunk.js.map",
+    "index.html": "/Nxt-Trendz-Authentication/index.html",
+    "static/css/main.ee614429.chunk.css.map": "/Nxt-Trendz-Authentication/static/css/main.ee614429.chunk.css.map",
+    "static/js/2.3d3b54bd.chunk.js.LICENSE.txt": "/Nxt-Trendz-Authentication/static/js/2.3d3b54bd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18d82c3d.js",
+    "static/js/2.3d3b54bd.chunk.js",
+    "static/css/main.ee614429.chunk.css",
+    "static/js/main.5cc470f8.chunk.js"
+  ]
+}
