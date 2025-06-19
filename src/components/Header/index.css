@@ -1,0 +1,105 @@
+/* Write your CSS code here */
+.header-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .header-bg-container {
+    display: none;
+  }
+}
+
+.website-logo-and-nav-logout-logo-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.website-logo-image {
+  height: 27px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo-image {
+    height: 37px;
+  }
+}
+
+.nav-logout-image {
+  height: 27px;
+}
+
+.nav-bg-container {
+  width: 100%;
+  background-color: #e6f6ff;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 18px 30px 18px 30px;
+}
+
+.nav-icons-image {
+  height: 20px;
+}
+
+.header-bg-large-container {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .header-bg-large-container {
+    display: none;
+  }
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-large-screen-options-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.logout-button {
+  margin-left: 10px;
+  background-color: #0967d2;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  border-width: 0;
+  padding: 10px 20px 10px 20px;
+  font-size: 19px;
+}
+
+.nav-large-options {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 19px;
+}

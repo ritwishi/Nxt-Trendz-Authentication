@@ -1,0 +1,116 @@
+/* Write your CSS code here */
+.nxt-trendz-home-and-header-main-bg-container {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nxt-trendz-home-main-outer-bg-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-top: 20px;
+}
+
+.nxt-trendz-home-main-bg-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .nxt-trendz-home-main-bg-container {
+    margin-right: 25px;
+  }
+}
+
+.home-page-tag-line {
+  font-family: 'Roboto';
+  color: #1e293b;
+  text-align: center;
+  font-weight: 900;
+  font-size: 29px;
+}
+
+@media screen and (min-width: 576px) {
+  .home-page-tag-line {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-page-tag-line {
+    margin-bottom: 10px;
+    text-align: start;
+    align-self: flex-start;
+  }
+}
+
+.home-page-title-image {
+  width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .home-page-title-image {
+    display: none;
+  }
+}
+
+.home-page-description {
+  font-family: 'Roboto';
+  color: #64748b;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 30px;
+  margin-top: 35px;
+}
+
+@media screen and (min-width: 576px) {
+  .home-page-description {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-page-description {
+    margin-top: 10px;
+    text-align: start;
+  }
+}
+
+.home-page-shop-now-button {
+  background-color: #0967d2;
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding: 10px 50px 10px 50px;
+  border-radius: 5px;
+  border-width: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .home-page-shop-now-button {
+    align-self: flex-start;
+  }
+}
+
+.home-page-title-image-lg {
+  width: 30%;
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .home-page-title-image-lg {
+    display: none;
+  }
+}

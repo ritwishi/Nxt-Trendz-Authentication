@@ -1,0 +1,129 @@
+/* Write your CSS code here */
+.login-form-main-bg-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.login-form-inner-bg-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+  .login-form-inner-bg-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.webiste-logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .webiste-logo-container {
+    display: none;
+  }
+}
+
+.website-logo-image-login-page {
+  height: 40px;
+}
+
+.webiste-login-image-login-page {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .webiste-login-image-login-page {
+    width: 50%;
+    margin-right: 20px;
+  }
+}
+
+.form-bg-container {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 992px) {
+  .form-bg-container {
+    margin-left: 20px;
+    width: 35%;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    margin-top: 0;
+    padding: 50px 30px 50px 30px;
+  }
+}
+
+.website-logo-image-login-page-lg {
+  height: 30px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+@media screen and (max-width: 991px) {
+  .website-logo-image-login-page-lg {
+    display: none;
+  }
+}
+
+.input-container {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  background-color: #d7dfe9;
+  padding: 8px 10px 8px 10px;
+  border-width: 0;
+  border-radius: 5px;
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 400;
+  outline: none;
+  font-family: 'Roboto';
+}
+
+.label-element {
+  margin-bottom: 5px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #64748b;
+  font-weight: 800;
+}
+
+.login-submit-button {
+  background-color: #0b69ff;
+  border-width: 0;
+  padding: 10px 20px 10px 20px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.error-message {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ff0b37;
+  font-weight: 500;
+}
